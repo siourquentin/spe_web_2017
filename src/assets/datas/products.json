@@ -1,0 +1,25 @@
+[{
+	"name": "Item 1",
+	"price": "19€99",
+	"color": "Red",
+	"visual": "images/2.jpg",
+	"visualHover": "images/5.jpg"
+}, {
+	"name": "Item 2",
+	"price": "19€99",
+	"color": "Green",
+	"visual": "images/5.jpg",
+	"visualHover": "images/2.jpg"
+}, {
+	"name": "Item 3",
+	"price": "19€99",
+	"color": "Blue",
+	"visual": "images/2.jpg",
+	"visualHover": "images/5.jpg"
+}, {
+	"name": "Item 4",
+	"price": "19€99",
+	"color": "Yellow",
+	"visual": "images/5.jpg",
+	"visualHover": "images/2.jpg"
+}]

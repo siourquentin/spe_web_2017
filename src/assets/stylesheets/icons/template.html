@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Template icons</title>
+	<link rel="stylesheet" href="css/common.css" media="screen"/>
+</head>
+<body>	
+	<% 
+	_.each(glyphs, function(glyph)
+	{
+	%>
+		<i class="<%= className %> <%= className %>-<%= glyph.name %>"></i>
+	<%
+	});
+	%>
+</body>
+</html>

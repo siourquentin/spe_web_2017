@@ -1,0 +1,19 @@
+/* Color */
+body {
+  background: #ededed; }
+
+.Productlist {
+  font-size: 0;
+  margin-top: 20px; }
+
+.Productlist-item {
+  display: inline-block;
+  width: 25%;
+  font-size: 16px; }
+
+.ProductList-productVisual {
+  display: block;
+  max-width: 100%; }
+
+.ProductList-productVisual--hidden {
+  display: none; }
