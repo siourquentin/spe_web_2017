@@ -1,0 +1,26 @@
+{# layout.twig #}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/common.css" media="screen"/>
+	{% block stylesheets %}
+	{% endblock %}
+</head>
+<body>	
+	<!-- HEADER -->
+	{% include "../../components/header/header.twig" %}
+
+	<!-- CONTENT -->
+	{% block content %}
+	{% endblock %}
+
+	<!-- SCRIPT -->
+	<script type="text/javascript" src="js/common.js"></script>
+
+	{% block scripts %}
+	{% endblock %}
+</body>
+</html>
